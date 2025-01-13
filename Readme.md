@@ -67,4 +67,9 @@
 13. ### Load Balancing : ###
 
     > To Efficiently distribute the requests between many instance of the same service, a load balancer (using Round
-    Robin) was implemented by utilizing @LoadBalanced annotation. 
+    Robin) was implemented by utilizing @LoadBalanced annotation.
+
+14. ### Containers : ###
+
+> Utilizing Docker and docker-compose to add required dependencies (PostgreSQL, zipking, etc) , establishing network
+> between these services, and exposing ports to be connected to from the app.
