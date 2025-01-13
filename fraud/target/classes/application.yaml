@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+spring:
+  application:
+    name: fraud
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: 'fraud-service'
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
